@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  background-color: #FF6F5A;
+  border-radius: 50%;
+  cursor: -webkit-grab;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+}
+
+.input {
+  outline: none;
+  background: 0 0;
+  width:60px;
+  margin: 8px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #001733;
+}
+
+svg{
+  overflow: visible;
+}
+
+line{
+  stroke: #001633;
+  stroke-width:2;
+}
+
+#input_box{
+  position: absolute;
+}
+
+#input{
+  position: absolute;
+  background: #001733;
+  color:white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: -15px;
+  margin-left: -30px;
+  outline: none;
+  width:60px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #001733;
+}
